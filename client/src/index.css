@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  background-color: #FFFFFF !important;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, #093879 64%, rgba(0,0,0,1) 100%);
   color: #0074ff !important;
   font-family: economica !important;
   -webkit-font-smoothing: antialiased;

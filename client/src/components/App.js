@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 
 // Components
 import Content from './Content';
-/*import Header from './Header';
-import Footer from './Footer';*/
+import Header from './Header';
+import items from '../Menu';
+/*import Footer from './Footer';*/
 
-/*import items from '../Menu';*/
+
 /*
 <Header items={items} />
 <Content body={children} />
@@ -23,6 +24,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Header items={items} />
         <Content body={children} />
       </div>
     );

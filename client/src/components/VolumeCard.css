@@ -1,0 +1,16 @@
+.volumeCard{
+    width: 60px;
+    padding: 5px;
+    background-color: transparent !important;
+    border: 1px #017ab4 solid !important;
+    color:#FFFFFF !important;
+  }
+  .volumeCardHeader{
+    background-color: #E6FB04 !important; 
+    border: 1px #017ab4 solid !important;
+    color:#17098f !important;
+    width: 60px;
+    padding: 5px;
+    margin:5px auto;
+    text-align: center;    
+  }

@@ -2,6 +2,10 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Home from './components/Home';
 import App from './components/App';
+import AboutUs from './components/AboutUs';
+import MainMixerVolume from './components/MainMixerVolume';
+
+
 /*
 import SelectBoard from './components/SelectBoard';
 import About from './components/About';
@@ -17,8 +21,10 @@ import Rules from './components/Rules';
 const AppRoutes = () => 
 <App>
     <Switch>
-        <Route exact path="/home" component = {Home} />
+        <Route exact path="/Home" component = {Home} />
         <Route exact path="/" component = {Home} />
+        <Route exact path="/About" component = {AboutUs} />
+        <Route exact path="/MainVolume" component = {MainMixerVolume} />
     </Switch>
 </App>
 

@@ -1,0 +1,14 @@
+.NavigationBar{
+  background: transparent !important;
+}
+.menuItem{
+  color:#E6FB04;
+  font-size: 1.5em;
+}
+.menuItem a {
+  color:#E6FB04;
+} 
+.menuItem a:hover {
+  color:#E6FB04;
+  text-decoration: none;
+} 
